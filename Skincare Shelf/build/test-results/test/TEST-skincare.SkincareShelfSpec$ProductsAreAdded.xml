@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="after adding products" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-16T08:47:50" hostname="DESKTOP-2FS46B7" time="0.014">
+  <properties/>
+  <testcase name="When five products are added in the Product shelf." classname="skincare.SkincareShelfSpec$ProductsAreAdded" time="0.005"/>
+  <testcase name="Products returned from skincare shelf is immutable for client." classname="skincare.SkincareShelfSpec$ProductsAreAdded" time="0.006"/>
+  <system-out><![CDATA[Working on test <= SkincareShelf Specification =>
+class skincare.Product
+<= Shelf is initialized. =>
+<= Cart from DB Deleted. =>
+Working on test <= SkincareShelf Specification =>
+class skincare.Product
+<= Shelf is initialized. =>
+<= Cart from DB Deleted. =>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
